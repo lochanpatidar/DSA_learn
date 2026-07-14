@@ -9,7 +9,7 @@ public class ArrayInsert {
             arr[i]=arr[i-1];
         }
         arr[pos]=value;
-        for(int i=0; i<arr.length; i++){
+        for(int i=0; i<arr.length+1; i++){
             System.err.println(arr[i]+" ");
         }
     }
