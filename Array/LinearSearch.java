@@ -14,8 +14,6 @@ public class LinearSearch {
             } 
         }
                System.out.println("element not found");
-               
-
-    }
-    
+             sc.close();  
+    } 
 }
