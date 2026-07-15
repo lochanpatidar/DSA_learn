@@ -16,6 +16,7 @@ public class FindMissing {
                 break;
             }
         }
+        sc.close();
     }
     
 }
