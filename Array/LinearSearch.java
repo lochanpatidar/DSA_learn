@@ -11,9 +11,9 @@ public class LinearSearch {
             if(arr[i]==key){
                 System.out.println("element found at index:"+i);
                 return; //return immediately stops the program because the element has been found.
-            } 
+            }
         }
                System.out.println("element not found");
-             sc.close();  
-    } 
+             sc.close();
+    }
 }
