@@ -9,9 +9,6 @@ public class LargestElement {
         }
        }
         System.out.println("max value:"+max);
-
-         
-
     }
     
 }
