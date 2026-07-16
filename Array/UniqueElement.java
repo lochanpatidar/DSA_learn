@@ -10,7 +10,7 @@ public class UniqueElement{
                 }
             }
             if (count == 1) {
-                System.out.println(arr[i]);
+                System.out.println(i+ "=" +arr[i]);
             }
         }
     }
