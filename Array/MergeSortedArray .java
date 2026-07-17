@@ -1,5 +1,4 @@
 package Array;
-
 public class MergeSortedArray {
     public static void main(String[] args) {
         int[] arr1 = {10, 30, 50};
