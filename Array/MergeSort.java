@@ -1,6 +1,5 @@
 package Array;
 import java.util.Arrays;
-
 public class MergeSort {
     static void mergeSort(int[] arr) {
         if (arr.length == 1)
