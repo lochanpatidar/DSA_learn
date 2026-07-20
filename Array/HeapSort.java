@@ -1,5 +1,4 @@
 package Array;
-
 public class HeapSort {
     public static void heapSort(int[] arr) {
         int n = arr.length;
@@ -11,6 +10,7 @@ public class HeapSort {
             arr[0] = arr[i];
             arr[i] = temp;
             heapify(arr, i, 0);
+            
         }
     }
     public static void heapify(int[] arr, int n, int i) {
