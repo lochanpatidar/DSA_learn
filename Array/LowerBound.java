@@ -1,8 +1,8 @@
 package Array;
 public class LowerBound {
     public static void main(String[] args) {
-        int[] arr = {1, 2, 4, 4, 5, 6};
-        int target = 4;
+        int[] arr = {1,2,3,4,5,6,7,8};
+        int target = 8;
         int low = 0;
         int high = arr.length - 1;
         int ans = arr.length;
