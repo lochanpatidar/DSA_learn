@@ -2,8 +2,8 @@ package Array;
 
 public class UpperBound {
     public static void main(String[] args) {
-        int[] arr = {1, 2, 4, 4, 5, 6};
-        int target = 4;
+        int[] arr = {10,20,30,40,50};
+        int target = 35;
         int low = 0;
         int high = arr.length - 1;
         int ans = arr.length;
