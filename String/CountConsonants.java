@@ -6,7 +6,7 @@ public class CountConsonants {
         System.out.print("Enter a String: ");
         String str = sc.nextLine();
         int count = 0;
-        System.err.println("consonat word: ");
+        System.out.println("consonat word:");
         for (int i = 0; i < str.length(); i++) {
             char ch = Character.toLowerCase(str.charAt(i));
             if (ch >= 'a' && ch <= 'z') {
