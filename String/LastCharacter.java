@@ -7,7 +7,7 @@ public class LastCharacter {
         String str = sc.nextLine();
         if (str.length() > 0) {
             char lastChar = str.charAt(str.length() - 1);
-            System.out.println("Last Character: " + lastChar);
+            System.out.println("Last Character find: " + lastChar);
         } else {
             System.out.println("String is empty.");
         }
