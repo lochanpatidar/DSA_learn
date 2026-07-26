@@ -3,7 +3,7 @@ package String;
 public class TrimString {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter String: ");
+        System.out.print("Enter a String: ");
         String str = sc.nextLine();
         System.out.println("After Trim: " + str.trim());
         sc.close();
