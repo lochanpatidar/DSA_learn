@@ -3,6 +3,7 @@ package String;
 public class ExpandString {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        System.out.println("enter a string: ");
         String str = sc.nextLine();
         String result = "";
         for (int i = 0; i < str.length(); i += 2) {
@@ -11,7 +12,7 @@ public class ExpandString {
             for (int j = 1; j <= count; j++)
                 result += ch;
         }
-        System.out.println(result);
+        System.out.println("expand string: " +result);
         sc.close();
     }
 }
