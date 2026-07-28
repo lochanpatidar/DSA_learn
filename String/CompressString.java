@@ -3,6 +3,7 @@ package String;
 public class CompressString {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        System.out.println("enter a string: ");
         String str = sc.nextLine();
         String result = "";
         int count = 1;
@@ -15,7 +16,7 @@ public class CompressString {
                 count = 1;
             }
         }
-        System.out.println(result);
+        System.out.println("compress: " +result);
         sc.close();
     }
 }
