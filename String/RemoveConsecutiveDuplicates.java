@@ -3,7 +3,7 @@ package String;
 public class RemoveConsecutiveDuplicates {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("enter a string");
+        System.out.println("enter a string:");
         String str = sc.nextLine();
         String result = "";
         result += str.charAt(0);
@@ -11,7 +11,7 @@ public class RemoveConsecutiveDuplicates {
             if (str.charAt(i) != str.charAt(i - 1))
                 result += str.charAt(i);
         }
-        System.out.println("remove consocative"+result);
+        System.out.println("remove consocative: "+result);
         sc.close();
     } 
 }
