@@ -1,10 +1,10 @@
 package String;
-    import java.util.Scanner;
+ import java.util.Scanner;
 import java.util.Stack;
 public class DecodeString {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter Encoded String: ");
+        System.out.print("Enter a Encoded String: ");
         String s = sc.nextLine();
         Stack<Integer> countStack = new Stack<>();
         Stack<String> stringStack = new Stack<>();
