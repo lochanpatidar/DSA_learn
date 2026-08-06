@@ -1,10 +1,14 @@
 package String;
 
+import java.util.Scanner;
+
 public class String {
     public static void main(String[] args) {
-        String str1="lochan";
-        String str2="patidar"
-        String str3=str1+str2;
-        System.out.println(str3+ " ");
+        Scanner sc = new Scanner(System.in);
+      System.out.print("Enter a String: ");
+      String str=sc.nextLine();
+      System.out.println(str+ " ");
+    
+        
     }
 }
