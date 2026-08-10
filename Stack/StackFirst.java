@@ -15,7 +15,7 @@ public class StackFirst {
     }
     static void pop() {
         if (top == -1) {
-            System.out.println("Stack Underflow");
+            System.out.println("Stack of Underflow");
         } else {
             System.out.println(stack[top] + " popped");
             top--;
