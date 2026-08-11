@@ -6,7 +6,7 @@ public class Push {
     // Push operation
     void push(int value) {
         if (top == 4) {
-            System.out.println("Stack Overflow");
+            System.out.println("Stack of Overflow");
         } else {
             top++;
             arr[top] = value;
