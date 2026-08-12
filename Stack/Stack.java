@@ -14,7 +14,7 @@ public class Stack {
     // Peek operation
     void peek() {
         if (top == -1) {
-            System.out.println("Stacks are empty");
+            System.out.println("Stack is empty");
         } else {
             System.out.println("Top element: " + stack[top]);
         }
