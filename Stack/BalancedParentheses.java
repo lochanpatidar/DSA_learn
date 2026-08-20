@@ -9,7 +9,6 @@ class BalancedParentheses {
             if (ch == '(' || ch == '{' || ch == '[') {
                 stack.push(ch);
             }
-            // Closing brackets
             else if (ch == ')' || ch == '}' || ch == ']') {
                 // No opening bracket available
                 if (stack.isEmpty()) {
