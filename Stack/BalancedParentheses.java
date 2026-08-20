@@ -15,7 +15,6 @@ class BalancedParentheses {
                     return false;
                 }
                 char top = stack.pop();
-                // Check matching brackets
                 if (ch == ')' && top != '(' ||
                     ch == '}' && top != '{' ||
                     ch == ']' && top != '[') {
