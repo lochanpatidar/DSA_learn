@@ -10,7 +10,6 @@ class BalancedParentheses {
                 stack.push(ch);
             }
             else if (ch == ')' || ch == '}' || ch == ']') {
-                // No opening bracket available
                 if (stack.isEmpty()) {
                     return false;
                 }
@@ -22,7 +21,6 @@ class BalancedParentheses {
                 }
             }
         }
-        // Stack must be empty
         return stack.isEmpty();
     }
     public static void main(String[] args) {
