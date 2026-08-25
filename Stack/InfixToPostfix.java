@@ -23,7 +23,6 @@ class InfixToPostfix {
             else if (ch == '(') {
                 stack.push(ch);
             }
-            // Closing bracket
             else if (ch == ')') {
                 while (!stack.isEmpty() && stack.peek() != '(') {
                     postfix = postfix + stack.pop();
