@@ -29,7 +29,7 @@ class InfixToPostfix {
                 }
                 stack.pop(); // Remove '('
             }
-            // Operator
+        //add stack
             else {
                 while (!stack.isEmpty()
                         && priority(stack.peek()) >= priority(ch)) {
