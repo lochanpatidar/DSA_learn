@@ -11,7 +11,7 @@ public class ReverseStack {
             arr[++top] = value;
         }
     }
-    // Pop
+    //pop operation
     int pop() {
         if (top == -1) {
             System.out.println("Stack is Empty");
