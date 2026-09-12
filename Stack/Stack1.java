@@ -11,5 +11,6 @@ public class Stack1 {
       st.pop();
       System.out.println(st+" "+st.size());
       System.out.println(st.peek());
+      System.out.println(st.pop());
    } 
 }
