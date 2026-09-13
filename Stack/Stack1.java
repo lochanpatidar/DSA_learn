@@ -6,6 +6,7 @@ public class Stack1 {
       st.push("riya");
       st.push("priya");
       st.push("jiya");
+      st.push("tiya");
       System.out.println(st.size());
       System.out.println(st);
       st.pop();
