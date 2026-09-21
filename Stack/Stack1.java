@@ -7,7 +7,7 @@ public class Stack1 {
       st.push("priya");
       st.push("jiya");
       st.push("tiya");
-     
+     st.push("kiya");
       st.push("kiya");
       System.out.println(st.size());
       System.out.println(st);
