@@ -1,5 +1,4 @@
 package Stack;
-
 public class StackFull {
     int[] arr = new int[5];
     int top = -1;
@@ -11,7 +10,7 @@ public class StackFull {
         if (s.isFull()) {
             System.out.println("Stack is Full");
         } else {
-            System.out.println("Stack is Not Full");
+            System.out.println("Stack isn't Full");
         }
     }
 }
