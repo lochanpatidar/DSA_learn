@@ -52,6 +52,7 @@ public class StackUsingLinkedlist {
         System.out.println("After Pop:");
         s.display();
         s.push(50);
+        s.push(70);
         System.out.println("After Push:");
         s.display();
     } 
